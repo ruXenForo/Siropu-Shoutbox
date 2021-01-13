@@ -1,102 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
-<language title="Russian (RU)" date_format="j M Y" time_format="H:i" currency_format="{value} {symbol}" week_start="1" decimal_point="," thousands_separator=" " label_separator=":" comma_separator=", " ellipsis="…" parenthesis_open="(" parenthesis_close=")" language_code="ru-RU" text_direction="LTR" user_selectable="1" addon_id="Siropu/Shoutbox" base_version_id="1050570" export_version="2">
-  <phrase title="cron_entry.siropuShoutboxPrune" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Shoutbox: Автоматическая очистка]]></phrase>
-  <phrase title="cron_entry.siropuShoutboxShout" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Shoutbox: Удаление старых сообщений]]></phrase>
-  <phrase title="nav.siropuShoutbox" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Shoutbox]]></phrase>
-  <phrase title="nav.siropuShoutboxArchive" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Архив]]></phrase>
-  <phrase title="option.siropuShouboxDeleteShoutsOlderThan" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Удалить сообщения старше]]></phrase>
-  <phrase title="option.siropuShoutboxAllowBBCodes" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Разрешить BB-коды]]></phrase>
-  <phrase title="option.siropuShoutboxArhiveMessagesPerPage" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Архив сообщений на странице]]></phrase>
-  <phrase title="option.siropuShoutboxAutoPrune" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Автоматическая очистка чата каждые]]></phrase>
-  <phrase title="option.siropuShoutboxAutoPruneMessage" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Сообщение об автоматической очистке]]></phrase>
-  <phrase title="option.siropuShoutboxAutolink" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Включить автоссылку]]></phrase>
-  <phrase title="option.siropuShoutboxBanMessage" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Отображать сообщение для заблокированных пользователей]]></phrase>
-  <phrase title="option.siropuShoutboxBotUserId" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Идентификатор бота]]></phrase>
-  <phrase title="option.siropuShoutboxDisplayLimit" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Предел отображения сообщений]]></phrase>
-  <phrase title="option.siropuShoutboxEmojiList" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Включить список смайлов]]></phrase>
-  <phrase title="option.siropuShoutboxFloodCheckLength" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Минимальное время между сообщениями]]></phrase>
-  <phrase title="option.siropuShoutboxFooter" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Footer]]></phrase>
-  <phrase title="option.siropuShoutboxHeader" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Header]]></phrase>
-  <phrase title="option.siropuShoutboxMentionAlert" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Включить оповещение об упоминании пользователя]]></phrase>
-  <phrase title="option.siropuShoutboxMinAge" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Минимальный требуемый возраст]]></phrase>
-  <phrase title="option.siropuShoutboxNavigation" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Включить вкладку навигации]]></phrase>
-  <phrase title="option.siropuShoutboxPopup" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Включить всплывающее окно]]></phrase>
-  <phrase title="option.siropuShoutboxRefreshInterval" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Интервал обновления чата]]></phrase>
-  <phrase title="option.siropuShoutboxRefreshTimeout" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Тайм-аут обновления чата]]></phrase>
-  <phrase title="option.siropuShoutboxReverse" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Обратный порядок]]></phrase>
-  <phrase title="option.siropuShoutboxShoutMaxLength" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Максимальная длина сообщения]]></phrase>
-  <phrase title="option.siropuShoutboxSmilieButton" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Включить кнопку смайлика]]></phrase>
-  <phrase title="option.siropuShoutboxSound" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Включить звук]]></phrase>
-  <phrase title="option.siropuShoutboxThreadId" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Идентификатор темы]]></phrase>
-  <phrase title="option.siropuShoutboxThreadMessageMinLength" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Минимальная длина сообщения темы]]></phrase>
-  <phrase title="option.siropuShoutboxUserAvatar" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Включить аватары]]></phrase>
-  <phrase title="option.siropuShoutboxUserTag" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Включить быстрое упоминание пользователя по кнопке @]]></phrase>
-  <phrase title="option_explain.siropuShouboxDeleteShoutsOlderThan" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Автоматическое удаление старых сообщений. Установите 0, чтобы отключить.]]></phrase>
-  <phrase title="option_explain.siropuShoutboxAllowBBCodes" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Этот параметр определяет, отображаются ли BB-коды в сообщениях.]]></phrase>
-  <phrase title="option_explain.siropuShoutboxArhiveMessagesPerPage" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Максимальное количество сообщений для отображения на странице.]]></phrase>
-  <phrase title="option_explain.siropuShoutboxAutoPrune" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Автоматическая очистка чат-бокса каждые x часов. Установите 0, чтобы отключить.]]></phrase>
-  <phrase title="option_explain.siropuShoutboxAutoPruneMessage" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Если сообщение установлено, оно будет отправлено в чат после завершения автоматической очистки.]]></phrase>
-  <phrase title="option_explain.siropuShoutboxAutolink" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Если включено, URL-адреса и медиа-сайты будут автоматически связаны/встроены. Для того, чтобы это работало, должна быть включена опция «Разрешить BB-коды».]]></phrase>
-  <phrase title="option_explain.siropuShoutboxBanMessage" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Эта опция позволяет отображать сообщение для заблокированных пользователей чат-бокса.]]></phrase>
-  <phrase title="option_explain.siropuShoutboxBotUserId" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Этот идентификатор пользователя будет использоваться для сообщений бота автоматической очистки. Если ничего не указано, будет использоваться идентификатор 1.]]></phrase>
-  <phrase title="option_explain.siropuShoutboxDisplayLimit" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Установите максимальное количество сообщений для отображения в чат-боксе.]]></phrase>
-  <phrase title="option_explain.siropuShoutboxEmojiList" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Если выбрано, пользователи могут искать и выбирать смайлики из списка.]]></phrase>
-  <phrase title="option_explain.siropuShoutboxFloodCheckLength" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Пользователям придется ждать столько секунд между публикациями сообщений. Пользователи с разрешением «Обход проверки флуда» будут освобождены от этой опции.]]></phrase>
-  <phrase title="option_explain.siropuShoutboxFooter" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Если Вы хотите отобразить что-то в нижнем колонтитуле чат-бокса (например, рекламу или уведомления), Вы можете добавить это здесь. HTML разрешен.]]></phrase>
-  <phrase title="option_explain.siropuShoutboxHeader" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Если Вы хотите отображать что-то в заголовке чат-бокса (например, рекламу или уведомления), Вы можете добавить это сюда. HTML разрешен.]]></phrase>
-  <phrase title="option_explain.siropuShoutboxMentionAlert" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Если включено, пользователи могут получать уведомления о предупреждениях, когда они упоминаются в сообщениях.]]></phrase>
-  <phrase title="option_explain.siropuShoutboxMinAge" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Эта опция позволяет ограничить доступ в зависимости от возраста пользователя.]]></phrase>
-  <phrase title="option_explain.siropuShoutboxNavigation" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Эта опция позволяет пользователям использовать чат на отдельной странице.]]></phrase>
-  <phrase title="option_explain.siropuShoutboxPopup" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Если включено, пользователи могут открывать чат во всплывающем окне.]]></phrase>
-  <phrase title="option_explain.siropuShoutboxRefreshInterval" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Интервал между обновлениями чат-бокса. Установите 0, чтобы отключить обновление.]]></phrase>
-  <phrase title="option_explain.siropuShoutboxRefreshTimeout" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Эта опция остановит интервал обновления, если пользователь не активен более x минут. Установите 0, чтобы отключить.]]></phrase>
-  <phrase title="option_explain.siropuShoutboxReverse" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Если включено, поле ввода будет размещено внизу, а новое сообщение будет отображаться снизу вверх.]]></phrase>
-  <phrase title="option_explain.siropuShoutboxShoutMaxLength" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Установите максимально допустимую длину сообщения.]]></phrase>
-  <phrase title="option_explain.siropuShoutboxSmilieButton" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Если включено, для быстрого доступа к смайлам будет отображаться новая кнопка. Эта опция также включает смайлы, если опция «Разрешить BB-коды» отключена.]]></phrase>
-  <phrase title="option_explain.siropuShoutboxSound" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Если включено, звуковое уведомление будет использоваться для новых сообщений.]]></phrase>
-  <phrase title="option_explain.siropuShoutboxThreadId" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Если указан действительный идентификатор темы, сообщения также будут опубликованы в этой теме также.]]></phrase>
-  <phrase title="option_explain.siropuShoutboxThreadMessageMinLength" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Эта опция позволяет публиковать только сообщения длиной не менее x символов.]]></phrase>
-  <phrase title="option_explain.siropuShoutboxUserAvatar" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Отображать аватар пользователя в сообщении.]]></phrase>
-  <phrase title="option_explain.siropuShoutboxUserTag" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Эта опция добавит кнопку @ перед именем пользователя для быстрой вставки обращения к пользователю.]]></phrase>
-  <phrase title="option_group.siropuShoutbox" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[[Siropu] Shoutbox]]></phrase>
-  <phrase title="option_group_description.siropuShoutbox" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Настройки для Shoutbox от Siropu.]]></phrase>
-  <phrase title="permission.siropuShoutbox_ban" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Блокировка пользователей]]></phrase>
-  <phrase title="permission.siropuShoutbox_bypassFloodCheck" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Обход проверки флуда]]></phrase>
-  <phrase title="permission.siropuShoutbox_deleteAny" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Удаление любого сообщения]]></phrase>
-  <phrase title="permission.siropuShoutbox_deleteOwn" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Удаление собственных сообщений]]></phrase>
-  <phrase title="permission.siropuShoutbox_editAny" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Редактирование любого сообщения]]></phrase>
-  <phrase title="permission.siropuShoutbox_editOwn" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Редактирование собственных сообщений]]></phrase>
-  <phrase title="permission.siropuShoutbox_prune" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Очистка сообщений]]></phrase>
-  <phrase title="permission.siropuShoutbox_use" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Использование чата]]></phrase>
-  <phrase title="permission.siropuShoutbox_view" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Просмотр чата]]></phrase>
-  <phrase title="permission.siropuShoutbox_viewArchive" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Просмотр архива]]></phrase>
-  <phrase title="permission.siropuShoutbox_viewBanned" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Просмотр заблокированных пользователей]]></phrase>
-  <phrase title="permission_interface.siropuShoutbox" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Shoutbox]]></phrase>
-  <phrase title="siropu_easy_user_ban_enable_sidebar_style" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Включить стиль боковой панели]]></phrase>
-  <phrase title="siropu_easy_user_ban_hide_shout_date" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Скрыть дату сообщения]]></phrase>
-  <phrase title="siropu_shoutbox" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Shoutbox]]></phrase>
-  <phrase title="siropu_shoutbox_archive" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Архив]]></phrase>
-  <phrase title="siropu_shoutbox_are_you_sure_you_want_to_delete_shout" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Вы уверены, что хотите удалить это сообщение?]]></phrase>
-  <phrase title="siropu_shoutbox_cannot_submit_empty_shout" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Вы не можете отправить пустое сообщение.]]></phrase>
-  <phrase title="siropu_shoutbox_content_height" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Высота содержимого чат-бокса]]></phrase>
-  <phrase title="siropu_shoutbox_content_height_explain" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Эта опция позволяет Вам установить индивидуальную высоту содержимого чат-бокса для этого виджета.]]></phrase>
-  <phrase title="siropu_shoutbox_edit_shout" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Редактировать сообщение]]></phrase>
-  <phrase title="siropu_shoutbox_has_been_pruned" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Чат был очищен!]]></phrase>
-  <phrase title="siropu_shoutbox_loading_more_shouts" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Загрузка дополнительных сообщений...]]></phrase>
-  <phrase title="siropu_shoutbox_no_shouts" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Сообщения еще не были опубликованы.]]></phrase>
-  <phrase title="siropu_shoutbox_open_in_popup" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Открыть во всплывающем окне]]></phrase>
-  <phrase title="siropu_shoutbox_placeholder" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[О чем ты думаешь?]]></phrase>
-  <phrase title="siropu_shoutbox_please_wait" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Пожалуйста, подождите...]]></phrase>
-  <phrase title="siropu_shoutbox_please_wait_x_seconds" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Пожалуйста, подождите {length} секунд...]]></phrase>
-  <phrase title="siropu_shoutbox_requested_shout_not_found" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Запрошенное сообщение не может быть найдено.]]></phrase>
-  <phrase title="siropu_shoutbox_shout" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Отправить!]]></phrase>
-  <phrase title="siropu_shoutbox_tag_user" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Отметить пользователя]]></phrase>
-  <phrase title="siropu_shoutbox_toggle_direction" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Переключить направление]]></phrase>
-  <phrase title="siropu_shoutbox_toggle_sound" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Переключить звук]]></phrase>
-  <phrase title="siropu_shoutbox_toggle_visibility" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Переключить видимость]]></phrase>
-  <phrase title="siropu_shoutbox_user_x_has_banned_banned" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Пользователь {username} был заблокирован!]]></phrase>
-  <phrase title="siropu_shoutbox_user_x_has_banned_unbanned" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Пользователь {username} был разблокирован!]]></phrase>
-  <phrase title="siropu_shoutbox_x_mentioned_you_in_the_shoutbox" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[{name} упомянул Вас в <a href="{shoutbox_url}">чате</a>.]]></phrase>
-  <phrase title="widget_def.siropu_shoutbox" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Shoutbox]]></phrase>
-  <phrase title="widget_def_desc.siropu_shoutbox" addon_id="Siropu/Shoutbox" version_id="1050570" version_string="1.5.5"><![CDATA[Отобразить Shoutbox от Siropu.]]></phrase>
+<language title="Russian (RU)" date_format="j M Y" time_format="H:i" currency_format="{value} {symbol}" week_start="1" decimal_point="." thousands_separator="," label_separator=":" comma_separator=", " ellipsis="..." parenthesis_open="(" parenthesis_close=")" language_code="ru-RU" text_direction="LTR" user_selectable="1" addon_id="Siropu/Shoutbox" base_version_id="1050770" export_version="2">
+  <phrase title="cron_entry.siropuShoutboxPrune" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Shoutbox: Автоматическая обрезка]]></phrase>
+  <phrase title="cron_entry.siropuShoutboxShout" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Shoutbox: Удалить старые сообщения]]></phrase>
+  <phrase title="nav.siropuShoutbox" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Чат]]></phrase>
+  <phrase title="nav.siropuShoutboxArchive" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Архив]]></phrase>
+  <phrase title="option.siropuShouboxDeleteShoutsOlderThan" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Удалить сообщения старше]]></phrase>
+  <phrase title="option.siropuShoutboxAllowBBCodes" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Разрешить BB-коды]]></phrase>
+  <phrase title="option.siropuShoutboxArhiveMessagesPerPage" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Сообщений архива на страницу]]></phrase>
+  <phrase title="option.siropuShoutboxAutoPrune" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Автоматическая обрезка чата каждые]]></phrase>
+  <phrase title="option.siropuShoutboxAutoPruneMessage" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Авто обрезка сообщения]]></phrase>
+  <phrase title="option.siropuShoutboxAutolink" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Включить автоссылку]]></phrase>
+  <phrase title="option.siropuShoutboxBanMessage" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Отображать сообщение для заблокированных пользователей]]></phrase>
+  <phrase title="option.siropuShoutboxBotUserId" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[ID пользователя бота]]></phrase>
+  <phrase title="option.siropuShoutboxDisplayLimit" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Предел отображения сообщения]]></phrase>
+  <phrase title="option.siropuShoutboxFloodCheckLength" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Минимальное время между сообщениями]]></phrase>
+  <phrase title="option.siropuShoutboxFooter" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Нижний колонтитул]]></phrase>
+  <phrase title="option.siropuShoutboxHeader" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Заголовок]]></phrase>
+  <phrase title="option.siropuShoutboxMentionAlert" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Включить оповещение об упоминании пользователя]]></phrase>
+  <phrase title="option.siropuShoutboxMinAge" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Обязательный минимальный возраст]]></phrase>
+  <phrase title="option.siropuShoutboxNavigation" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Включить вкладку навигации]]></phrase>
+  <phrase title="option.siropuShoutboxPopup" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Включить всплывающее окно]]></phrase>
+  <phrase title="option.siropuShoutboxRefreshInterval" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Интервал обновления чата]]></phrase>
+  <phrase title="option.siropuShoutboxRefreshTimeout" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Тайм-аут обновления чата]]></phrase>
+  <phrase title="option.siropuShoutboxReverse" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Обратный порядок]]></phrase>
+  <phrase title="option.siropuShoutboxShoutMaxLength" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Максимальная длина сообщения]]></phrase>
+  <phrase title="option.siropuShoutboxSmilieButton" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Включить кнопку смайлика]]></phrase>
+  <phrase title="option.siropuShoutboxSound" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Включить звук]]></phrase>
+  <phrase title="option.siropuShoutboxThreadId" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[ID темы]]></phrase>
+  <phrase title="option.siropuShoutboxThreadMessageMinLength" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Минимальная длина сообщения темы]]></phrase>
+  <phrase title="option.siropuShoutboxUserAvatar" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Включить аватары]]></phrase>
+  <phrase title="option.siropuShoutboxUserTag" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Включить кнопку @ быстрого тегирования пользователей]]></phrase>
+  <phrase title="option_explain.siropuShouboxDeleteShoutsOlderThan" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Авто удаление старых сообщений. Установите 0, чтобы отключить.]]></phrase>
+  <phrase title="option_explain.siropuShoutboxAllowBBCodes" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Этот параметр определяет, отображаются ли BB-коды в сообщениях.]]></phrase>
+  <phrase title="option_explain.siropuShoutboxArhiveMessagesPerPage" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Максимальное количество сообщений для отображения на странице.]]></phrase>
+  <phrase title="option_explain.siropuShoutboxAutoPrune" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Автоматическая обрезка чата каждые x часов. Установите 0, чтобы отключить.]]></phrase>
+  <phrase title="option_explain.siropuShoutboxAutoPruneMessage" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Если сообщение установлено, оно будет отправлено в чат после завершения автоматической обрезки.]]></phrase>
+  <phrase title="option_explain.siropuShoutboxAutolink" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Если включено, URL-адреса и медиа-сайты будут автоматически связаны/встроены. Опция «Разрешить BB-коды» должна быть включена, чтобы это работало.]]></phrase>
+  <phrase title="option_explain.siropuShoutboxBanMessage" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Эта опция позволяет отображать сообщение для заблокированных пользователей чата.]]></phrase>
+  <phrase title="option_explain.siropuShoutboxBotUserId" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Этот идентификатор пользователя будет использоваться для сообщений бота автоматической очистки. Если ничего не указано, будет использоваться ID равный 1.]]></phrase>
+  <phrase title="option_explain.siropuShoutboxDisplayLimit" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Установите максимальное количество сообщений для отображения в чате.]]></phrase>
+  <phrase title="option_explain.siropuShoutboxFloodCheckLength" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Пользователям придется ждать столько секунд между публикациями сообщений. Пользователи с разрешением «Может обойти проверку флуда» будут освобождены от этой опции.]]></phrase>
+  <phrase title="option_explain.siropuShoutboxFooter" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Если Вы хотите отобразить что-то в нижнем колонтитуле чата (например, рекламу или уведомления), Вы можете добавить это здесь. HTML разрешен.]]></phrase>
+  <phrase title="option_explain.siropuShoutboxHeader" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Если Вы хотите отображать что-то в заголовке чата (например, рекламу или уведомления), Вы можете добавить это сюда. HTML разрешен.]]></phrase>
+  <phrase title="option_explain.siropuShoutboxMentionAlert" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Если этот параметр включен, пользователи могут получать уведомления, когда их упоминают в сообщениях.]]></phrase>
+  <phrase title="option_explain.siropuShoutboxMinAge" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Эта опция позволяет ограничить доступ в зависимости от возраста пользователя.]]></phrase>
+  <phrase title="option_explain.siropuShoutboxNavigation" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Эта опция позволяет пользователям использовать чат на выделенной странице.]]></phrase>
+  <phrase title="option_explain.siropuShoutboxPopup" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Если включено, пользователи смогут открывать чат во всплывающем окне.]]></phrase>
+  <phrase title="option_explain.siropuShoutboxRefreshInterval" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Интервал между обновлениями чата. Установите 0, чтобы отключить обновление.]]></phrase>
+  <phrase title="option_explain.siropuShoutboxRefreshTimeout" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Эта опция остановит интервал обновления, если пользователь не активен более x минут. Установите 0, чтобы отключить.]]></phrase>
+  <phrase title="option_explain.siropuShoutboxReverse" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Если этот параметр включен, поле ввода будет расположено внизу, а новое сообщение будет отображаться снизу вверх.]]></phrase>
+  <phrase title="option_explain.siropuShoutboxShoutMaxLength" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Установите максимально допустимую длину сообщения.]]></phrase>
+  <phrase title="option_explain.siropuShoutboxSmilieButton" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Если этот параметр включен, для быстрого доступа к смайлам будет отображаться новая кнопка. Эта опция также включает смайлы, если опция «Разрешить BB коды» отключена.]]></phrase>
+  <phrase title="option_explain.siropuShoutboxSound" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Если включено, звуковое уведомление будет использоваться для новых сообщений.]]></phrase>
+  <phrase title="option_explain.siropuShoutboxThreadId" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Если указан действительный идентификатор темы, сообщения также будут опубликованы в этой теме.]]></phrase>
+  <phrase title="option_explain.siropuShoutboxThreadMessageMinLength" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Эта опция позволяет публиковать только сообщения длиной не менее x символов.]]></phrase>
+  <phrase title="option_explain.siropuShoutboxUserAvatar" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Отображать аватар пользователя в сообщении.]]></phrase>
+  <phrase title="option_explain.siropuShoutboxUserTag" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Эта опция добавит кнопку @ перед именем пользователя для быстрой тегирования пользователей.]]></phrase>
+  <phrase title="option_group.siropuShoutbox" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Shoutbox]]></phrase>
+  <phrase title="option_group_description.siropuShoutbox" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Настройки для Shoutbox от Siropu.]]></phrase>
+  <phrase title="permission.siropuShoutbox_ban" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Блокировка пользователей]]></phrase>
+  <phrase title="permission.siropuShoutbox_bypassFloodCheck" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Обход проверки флуда]]></phrase>
+  <phrase title="permission.siropuShoutbox_deleteAny" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Удаление любого сообщения]]></phrase>
+  <phrase title="permission.siropuShoutbox_deleteOwn" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Удаление своего сообщения]]></phrase>
+  <phrase title="permission.siropuShoutbox_editAny" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Редактирование любого сообщения]]></phrase>
+  <phrase title="permission.siropuShoutbox_editOwn" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Редактирование своих сообщений]]></phrase>
+  <phrase title="permission.siropuShoutbox_prune" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Обрезка чата]]></phrase>
+  <phrase title="permission.siropuShoutbox_use" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Использование чата]]></phrase>
+  <phrase title="permission.siropuShoutbox_view" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Просмотр чата]]></phrase>
+  <phrase title="permission.siropuShoutbox_viewArchive" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Просмотр архива]]></phrase>
+  <phrase title="permission.siropuShoutbox_viewBanned" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Просмотр заблокированных пользователей]]></phrase>
+  <phrase title="permission_interface.siropuShoutbox" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Shoutbox]]></phrase>
+  <phrase title="siropu_easy_user_ban_enable_sidebar_style" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Включить стиль боковой панели]]></phrase>
+  <phrase title="siropu_easy_user_ban_hide_shout_date" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Скрыть дату сообщения]]></phrase>
+  <phrase title="siropu_shoutbox" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Чат]]></phrase>
+  <phrase title="siropu_shoutbox_archive" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Архив]]></phrase>
+  <phrase title="siropu_shoutbox_are_you_sure_you_want_to_delete_shout" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Вы уверены, что хотите удалить это сообщение?]]></phrase>
+  <phrase title="siropu_shoutbox_cannot_submit_empty_shout" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Вы не можете отправить пустое сообщение.]]></phrase>
+  <phrase title="siropu_shoutbox_content_height" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Высота содержимого чата]]></phrase>
+  <phrase title="siropu_shoutbox_content_height_explain" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Эта опция позволяет Вам установить индивидуальную высоту содержимого чата для этого виджета.]]></phrase>
+  <phrase title="siropu_shoutbox_edit_shout" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Редактировать сообщение]]></phrase>
+  <phrase title="siropu_shoutbox_has_been_pruned" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Чат был обрезан!]]></phrase>
+  <phrase title="siropu_shoutbox_loading_more_shouts" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Загрузка дополнительных сообщений...]]></phrase>
+  <phrase title="siropu_shoutbox_no_shouts" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Сообщений еще не было.]]></phrase>
+  <phrase title="siropu_shoutbox_open_in_popup" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Открыть во всплывающем окне]]></phrase>
+  <phrase title="siropu_shoutbox_placeholder" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[О чем ты думаешь?]]></phrase>
+  <phrase title="siropu_shoutbox_please_wait" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Пожалуйста, подождите...]]></phrase>
+  <phrase title="siropu_shoutbox_please_wait_x_seconds" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Пожалуйста, подождите {length} секунд...]]></phrase>
+  <phrase title="siropu_shoutbox_requested_shout_not_found" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Запрошенное сообщение не может быть найдено.]]></phrase>
+  <phrase title="siropu_shoutbox_shout" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Отправить!]]></phrase>
+  <phrase title="siropu_shoutbox_tag_user" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Отметить пользователя]]></phrase>
+  <phrase title="siropu_shoutbox_toggle_direction" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Переключить направление]]></phrase>
+  <phrase title="siropu_shoutbox_toggle_sound" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Переключить звук]]></phrase>
+  <phrase title="siropu_shoutbox_toggle_visibility" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Переключить видимость]]></phrase>
+  <phrase title="siropu_shoutbox_user_x_has_banned_banned" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Пользователь {username} был заблокирован!]]></phrase>
+  <phrase title="siropu_shoutbox_user_x_has_banned_unbanned" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Пользователь {username} был разблокирован!]]></phrase>
+  <phrase title="siropu_shoutbox_x_mentioned_you_in_the_shoutbox" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[{name} упомянул Вас в <a href="{shoutbox_url}">чате</a>.]]></phrase>
+  <phrase title="widget_def.siropu_shoutbox" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Shoutbox]]></phrase>
+  <phrase title="widget_def_desc.siropu_shoutbox" addon_id="Siropu/Shoutbox" version_id="1050770" version_string="1.5.7"><![CDATA[Отображение Shoutbox от Siropu.]]></phrase>
 </language>
